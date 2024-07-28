@@ -42,3 +42,7 @@ ffbuild_configure() {
 ffbuild_unconfigure() {
     echo --disable-libdav1d
 }
+
+ffbuild_cflags() {
+    echo -g
+}
